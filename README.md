@@ -24,9 +24,13 @@ https://react-bootstrap.github.io/ <br />
 https://mdbootstrap.com/
 
 # Documentation :
-https://www.baeldung.com/spring-boot-react-crud
+https://www.baeldung.com/spring-boot-react-crud <br />
+https://reactrouter.com/docs/en/v6/upgrading/v5
 
 # Install the project
 ```yarn install```
 # Run
 ```yarn start```
+
+# Add new dependency
+```yarn add + {dependency}```

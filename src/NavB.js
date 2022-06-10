@@ -1,17 +1,25 @@
+//import { render } from '@testing-library/react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import {LinkContainer} from 'react-router-bootstrap'
 
+//class NavBarr extends React.Fragment {
 function NavBarr() {
   return (
     <Navbar bg="dark" variant='dark' expand="lg">
       <Container>
-        <Navbar.Brand href="/">Saas software</Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand>Saas software</Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="price">Pricing</Nav.Link>
+            <LinkContainer to="/price">
+              <Nav.Link>Pricing</Nav.Link>
+            </LinkContainer>
             <NavDropdown title="Product" id="basic-nav-dropdown">
               <NavDropdown.Item href="#features">Features</NavDropdown.Item>
             </NavDropdown>
