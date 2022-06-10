@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBarr from './NavB';
 import FooterBar from './Footer';
+import Welcome from './Welcome';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <NavBarr />
       </header>
       <div>
-        //
+        <Welcome />
       </div>
       <footer>
         <FooterBar />

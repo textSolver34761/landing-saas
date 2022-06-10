@@ -117,9 +117,9 @@ function FooterBar() {
         </MDBRow>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center p-3 text-white' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         &copy; {new Date().getFullYear()} Copyright:{' '}
-        <a className='text-dark' href='My-Compagny.com/'>
+        <a className='text-white' href='My-Compagny.com/'>
           My--Compagny.com
         </a>
       </div>
