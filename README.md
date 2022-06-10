@@ -25,3 +25,8 @@ https://mdbootstrap.com/
 
 # Documentation :
 https://www.baeldung.com/spring-boot-react-crud
+
+# Install the project
+```yarn install```
+# Run
+```yarn start```
