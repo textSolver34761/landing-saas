@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 function Welcome() {
     return (
@@ -10,7 +11,7 @@ function Welcome() {
                     <Card.Text>
                         here you can download our software
                     </Card.Text>
-                    <Button variant="primary">Go to pricing</Button>
+                    <Button variant="primary" as={Link} to="/price">Go to pricing</Button>
                 </Card.Body>
             </Card>
         </div>

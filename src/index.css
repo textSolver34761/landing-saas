@@ -18,3 +18,33 @@ code {
   width: 1535px;
   height: 240px;
 }
+
+.padding {
+  padding: 500px;
+}
+
+.wrapper {
+  width: 1005px;
+  margin: 0 auto;
+}
+
+.first, .second, .third {
+  border: 1px solid black;
+  float: left;
+  color: black;
+}
+
+.first {
+   width: 250px;
+   background-color: white;
+}
+
+.second {
+   width: 350px;
+   background-color: white;
+}
+
+.third {
+  width: 550px;
+  background-color: white;
+}

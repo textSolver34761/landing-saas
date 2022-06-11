@@ -2,21 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import NavBarr from './NavB';
-import Pricing from './pages/pricing';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <NavBarr />
-      <Routes>
-        <Route exact path="/" element={<App />} />
-        <Route path="/price" element={<Pricing/>} />
-      </Routes>
-    </Router>
+    <App />
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
