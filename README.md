@@ -25,7 +25,8 @@ https://mdbootstrap.com/
 
 # Documentation :
 https://www.baeldung.com/spring-boot-react-crud <br />
-https://reactrouter.com/docs/en/v6/upgrading/v5
+https://reactrouter.com/docs/en/v6/upgrading/v5 <br />
+https://marmelab.com/react-admin/Tutorial.html
 
 # Install the project
 ```yarn install```
