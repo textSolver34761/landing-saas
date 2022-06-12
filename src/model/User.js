@@ -1,7 +1,3 @@
-class User {
+class User {}
 
-    constructor() {
-        role
-    }
-
-}
+export default User;

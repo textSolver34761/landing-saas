@@ -11,7 +11,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Routes, Route, Link } from "react-router-dom";
 import {Pricing} from "./pages/Pricing";
 import Admin from "./pages/Admin"
-import User from "./model/User"
 
 
 function App() {
@@ -39,9 +38,7 @@ function App() {
                     </NavDropdown>
                   </Nav>
                 </Navbar.Collapse>
-                this.props
-                  <Nav.Link href="admin">Admin</Nav.Link> 
-                
+              <Nav.Link href="admin">Admin</Nav.Link> 
               </Container>
             </Navbar>
             <div>
