@@ -10,6 +10,9 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Routes, Route, Link } from "react-router-dom";
 import {Pricing} from "./pages/Pricing";
+import Admin from "./pages/Admin"
+import User from "./model/User"
+
 
 function App() {
   return (
@@ -36,12 +39,16 @@ function App() {
                     </NavDropdown>
                   </Nav>
                 </Navbar.Collapse>
+                this.props
+                  <Nav.Link href="admin">Admin</Nav.Link> 
+                
               </Container>
             </Navbar>
             <div>
               <Routes>
                 <Route path="/" element={<Welcome />} />
                 <Route path="/price" element={<Pricing />} />
+                <Route path="/admin" element={<Admin />} />
               </Routes>
             </div>
           </>

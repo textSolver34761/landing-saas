@@ -24,9 +24,17 @@ https://react-bootstrap.github.io/ <br />
 https://mdbootstrap.com/
 
 # Documentation :
+## Spring and React:
 https://www.baeldung.com/spring-boot-react-crud <br />
+## React Router:
 https://reactrouter.com/docs/en/v6/upgrading/v5 <br />
-https://marmelab.com/react-admin/Tutorial.html
+## React admin lib:
+https://marmelab.com/react-admin/Tutorial.html <br />
+## React protected Route:
+https://www.youtube.com/watch?v=qnH5KNtRYEI <br />
+https://www.youtube.com/watch?v=0DYELZ6ynlU <br />
+## React Hooks:
+https://www.youtube.com/watch?v=LlvBzyy-558
 
 # Install the project
 ```yarn install```
