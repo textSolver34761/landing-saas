@@ -39,6 +39,8 @@ https://www.youtube.com/watch?v=qnH5KNtRYEI <br />
 https://www.youtube.com/watch?v=0DYELZ6ynlU <br />
 ## React Hooks:
 https://www.youtube.com/watch?v=LlvBzyy-558
+## Axios
+https://www.digitalocean.com/community/tutorials/react-axios-react
 
 # Install the project
 ```yarn install```
