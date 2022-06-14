@@ -22,14 +22,6 @@ export default class Add extends React.Component {
         console.log(res);
         console.log(res.data);
       })
-
-      //axios.put("http://localhost:8080/products", product, this.config).then((response) => {}
- 
-     /*@PutMapping("/save-welcome/")
-     public ResponseEntity<?> update(@RequestBody Product product, @PathVariable Long id) {
-        
-     }*/
-
   }
 
   render() {
