@@ -1,5 +1,5 @@
 import React from 'react';
-//import axios from 'axios';
+import axios from 'axios';
 
 export default class Add extends React.Component {
   state = {
@@ -17,11 +17,19 @@ export default class Add extends React.Component {
       message: this.state.message
     };
 
-    /*axios.post(`https://jsonplaceholder.typicode.com/users`, { message })
+    axios.post(`http://localhost:8080/save-welcome`, { message })
       .then(res => {
         console.log(res);
         console.log(res.data);
-      })*/
+      })
+
+      //axios.put("http://localhost:8080/products", product, this.config).then((response) => {}
+ 
+     /*@PutMapping("/save-welcome/")
+     public ResponseEntity<?> update(@RequestBody Product product, @PathVariable Long id) {
+        
+     }*/
+
   }
 
   render() {
